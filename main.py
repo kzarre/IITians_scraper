@@ -9,7 +9,7 @@ eligible_branches = ["Computer Science and Engineering", "Data Science and Artif
 CSV_FILE = "iit_resume.xlsx"
 
 students = []
-
+	
 student_profiles = get_resume_list(CSV_FILE, eligible_branches)
 
 linkedin_urls = []

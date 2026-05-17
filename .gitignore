@@ -1,3 +1,11 @@
 students/
-iit_resume.xlsx
 __pycache__/
+.gitignore
+cookies.json
+code.html
+iit_resume.xlsx
+mouse.py
+results.json
+scroll_profile.json
+scroll_repeater.py
+test.txt

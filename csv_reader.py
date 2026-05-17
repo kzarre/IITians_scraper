@@ -4,16 +4,13 @@ eligible_branches = ["Computer Science and Engineering", "Data Science and Artif
 CSV_FILE = "iit_resume.xlsx"
 
 
-
 def get_resume_list(CSV_FILE, eligible_branches):
     df = pd.read_excel(CSV_FILE, header=None, names=["name", "cg", "branch", "course", "resume", "resume2", "drive"])
     df_cleaned = df[df["branch"].isin(eligible_branches)]
 
     df_cleaned = df_cleaned.dropna(subset=["resume"])
-
     df_cleaned = df_cleaned[df_cleaned["resume"].str.endswith(".pdf", na=False)]
 
     return df_cleaned[["name", "resume"]]
-
 
 f = get_resume_list(CSV_FILE, eligible_branches)
