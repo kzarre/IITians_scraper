@@ -10,12 +10,7 @@ cookies = {}
 with open('cookies.json', 'r') as f:
     cookies = json.load(f)
 
-# urls = [ ... your 380 links ... ]
-urls = [
-"https://www.linkedin.com/in/vamshi-jatothu/",
-"https://www.linkedin.com/in/deepika-podugu-209161202/",
-"https://www.linkedin.com/in/LINKEDINUSERID/"
-]
+urls = []
 
 
 def recheck(s):
