@@ -24,3 +24,12 @@ Does not work perfectly as It is rule based,
 should have added a basic NLP model to just find the company name on its own
 that would have been easier idk why I did not do that.
 Going to sleep, Okkie byeee!
+
+```
+main file is to extract the data from resumes and create 50 size excel sheets
+(ik i could have saved all in a single and broke them  during runtime)
+then the fetch_the_company is to fetch the company from their linkedin.
+```
+
+
+Moral: IITians are also not doing great in this market.
