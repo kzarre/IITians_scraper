@@ -3,7 +3,6 @@ from io import BytesIO
 from pypdf  import PdfReader
 import re
 
-url = "https://iitg.ac.in/placements/api/uploads/cv/file-1725515475465-6649737365c1ed6e2-275f-407b-b683-b3d4ae0b9027.pdf"
 
 def get_webpdf(url):
 	response = requests.get(url)
